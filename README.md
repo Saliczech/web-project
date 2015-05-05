@@ -1,13 +1,13 @@
-PWPress skeleton
-================
+PWPress web-project
+===================
 
-Skeleton is a pre-packaged and pre-configured Nette Framework application
-that you can use as the skeleton for your new applications.
+Web-project is a pre-packaged and pre-configured Nette Framework application
+that you can use as the skeleton for your new applications on ISPConfig server.
 
 Installing
 ----------
 
-The best way to install Sandbox is using Composer. If you don't have Composer yet, download
+The best way to install web-project is using Composer. If you don't have Composer yet, download
 it following [the instructions](http://doc.nette.org/composer). Then use command:
 
 		composer create-project PWPress/skeleton my-app
