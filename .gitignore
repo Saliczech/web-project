@@ -1,0 +1,11 @@
+.idea/*
+nbproject/*
+private/app/config/config.local.neon
+private/log/*
+private/temp/*
+private/vendor/*
+composer.lock
+!.gitignore
+!.htaccess
+!private/vendor/others
+!web.config
