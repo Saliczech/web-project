@@ -1,9 +1,9 @@
 <?php
 
-// Uncomment this line is a potential security hole!
+// Uncomment line with umask command is a potential security hole!
 // PLEASE DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING
 // https://github.com/nette/nette/issues/1039
-umask(0);
+// umask(0);
 
 use Nette\Application\Routers\Route,
 	Nette\Application\Routers\RouteList,
