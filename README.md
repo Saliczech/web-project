@@ -1,8 +1,8 @@
-PWPress web-project
-===================
+pw-press web-project
+====================
 
-Web-project is a pre-packaged and pre-configured Nette Framework application
-that you can use as the skeleton for your new applications on ISPConfig server.
+Web-project is a pre-packaged and pre-configured [NF](http://nette.org) application with [Bootstrap](http://getbootstrap.com/)
+that you can use as the skeleton for your new applications on [ISPConfig](http://www.ispconfig.org) server.
 
 Installing
 ----------
@@ -22,6 +22,7 @@ directly via a web browser! See [security warning](http://nette.org/security-war
 
 License
 -------
-- Nette: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
 - Adminer: Apache License 2.0 or GPL 2 (http://www.adminer.org)
-- PWPress/skeleton: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
+- Bootstrap: MIT License (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+- Nette: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
+- pw-press/web-project: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
