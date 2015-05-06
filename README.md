@@ -1,5 +1,11 @@
+# pw-press/web-project
+
+[![Latest stable](https://img.shields.io/packagist/v/pw-press/web-project.svg)](https://packagist.org/packages/pw-press/web-project)
+[![Downloads this Month](https://img.shields.io/packagist/dt/pw-press/web-project.svg?branch=v1.0.1)](https://packagist.org/packages/pw-press/web-project)
+
 Web-project is **unofficial** a pre-packaged and pre-configured [NF](http://nette.org) application with [Bootstrap](http://getbootstrap.com/)
 that you can use as the skeleton for your new applications on [ISPConfig](http://www.ispconfig.org) server.
+
 
 
 ## Installing
