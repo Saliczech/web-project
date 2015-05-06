@@ -10,7 +10,7 @@ Installing
 The best way to install web-project is using Composer. If you don't have Composer yet, download
 it following [the instructions](http://doc.nette.org/composer). Then use command:
 
-		composer create-project PWPress/skeleton my-app
+		composer create-project pw-press/web-project my-app
 		cd my-app
 
 Make directories `private/temp` and `private/log` writable. Navigate your browser
