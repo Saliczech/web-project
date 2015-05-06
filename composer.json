@@ -1,12 +1,12 @@
 {
-	"name": "PWPress/web-project",
-	"description": "The skeleton is a unfofficial pre-packaged NF project, basic configured structure for your application on ISPConfig server.",
+	"name": "pw-press/web-project",
+	"description": "The skeleton is a unfofficial pre-packaged NF project with Bootstrap, basic configured structure for your application on ISPConfig server.",
 	"homepage": "http://www.polakweb.com",
 	"type": "project",
 	"license": ["NewBSD"],
 	"authors": [
 		{
-			"name": "Petr Polák - PWPress/web-project",
+			"name": "Petr Polák - pw-press/web-project",
 			"homepage": "http://www.polakweb.com"
 		}
 	],
