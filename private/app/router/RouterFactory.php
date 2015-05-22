@@ -14,6 +14,7 @@ use Nette,
 class RouterFactory
 {
 
+
 	/**
 	 * @return \Nette\Application\IRouter
 	 */
@@ -30,6 +31,7 @@ class RouterFactory
 
 
 		return $router;
+
 	}
 
 }
