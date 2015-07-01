@@ -14,6 +14,7 @@ use Nette,
 class RouterFactory
 {
 
+
 	/**
 	 * @return \Nette\Application\IRouter
 	 */
@@ -22,13 +23,15 @@ class RouterFactory
 		$router = new RouteList();
 
 		$router[] = $adminRouter = new RouteList('Admin');
-		$adminRouter[] = new Route('admin/<presenter>/<action>[/<id>]', 'Default:default');
+		$adminRouter[] = new Route('admin/<presenter>/<action>[/<id>]', 'Default:default', Route::SECURED);
 
 		$router[] = $frontRouter = new RouteList('Front');
+		$frontRouter[] = new Route('index.php', 'Default:default'); // For NetBeans Connector only.
 		$frontRouter[] = new Route('<presenter>/<action>[/<id>]', 'Default:default');
 
 
 		return $router;
+
 	}
 
 }
