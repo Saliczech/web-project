@@ -25,8 +25,8 @@ if (!function_exists('barDump')) {
 
 }
 
-// Uncomment line with umask command is a potential security hole!
-// PLEASE DO NOT USE UNLESS YOU KNOW WHAT YOU ARE DOING
+// Uncomment line with umask(0) command is a potential security hole!
+// PLEASE DO NOT USE unless you know what YOU ARE DOING
 // https://github.com/nette/nette/issues/1039
 umask(0);
 
