@@ -28,7 +28,7 @@ if (!function_exists('barDump')) {
 // Uncomment line with umask(0) command is a potential security hole!
 // PLEASE DO NOT USE unless you know what YOU ARE DOING
 // https://github.com/nette/nette/issues/1039
-umask(0);
+umask(0); // Comment this line on a production server!
 
 use Nette\Application\Routers\Route,
 	Nette\Application\Routers\RouteList,
