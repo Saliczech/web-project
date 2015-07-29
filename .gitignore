@@ -6,6 +6,7 @@ private/log/*
 private/temp/*
 private/vendor/*
 composer.lock
+!deployment.ini
 !.gitignore
 !.htaccess
 !private/vendor/others
