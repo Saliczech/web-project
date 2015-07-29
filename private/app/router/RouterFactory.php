@@ -23,7 +23,7 @@ class RouterFactory
 		$router = new RouteList();
 
 		$router[] = $adminRouter = new RouteList('Admin');
-		$adminRouter[] = new Route('admin/<presenter>/<action>[/<id>]', 'Default:default', Route::SECURED);
+		$adminRouter[] = new Route('admin/<presenter>/<action>[/<id>]', 'Default:default', Route::SECURED); // , Route::SECURED for admin
 
 		$router[] = $frontRouter = new RouteList('Front');
 		$frontRouter[] = new Route('index.php', 'Default:default'); // For NetBeans Connector only.
