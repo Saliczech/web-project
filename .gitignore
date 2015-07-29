@@ -1,10 +1,12 @@
 .idea/*
+/deployment.*
 nbproject/*
 private/app/config/config.local.neon
 private/log/*
 private/temp/*
 private/vendor/*
 composer.lock
+!deployment.ini
 !.gitignore
 !.htaccess
 !private/vendor/others
