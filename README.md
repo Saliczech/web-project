@@ -49,8 +49,6 @@ directly via a web browser! See [security warning](http://nette.org/security-war
 - **Nette**: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
 - **pw-press/web-project**: New BSD License or GPL 2.0 or 3.0 (http://nette.org/license)
 
-AHOJ, ŽÁDNOU CHYBU JSEM TU NENAŠEL :)  Sali	
-
 ## Author
 
 Petr Polák, [www.polakweb.com](https://www.polakweb.com)
